@@ -195,3 +195,31 @@ img {
 .content {
   margin-top: 25px;
 }
+
+/* ===== Biodata Page Layout Fix ===== */
+.biodata-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.biodata-table {
+  flex: 1 1 65%;
+}
+
+.biodata-photo {
+  flex: 1 1 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}

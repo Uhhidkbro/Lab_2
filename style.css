@@ -255,14 +255,14 @@ img {
     color:aqua;
 }
 
-/* ===== Resize Profile Picture (Inside Table) ===== */
+/* ===== Resize Profile Picture (Inside Table - Final) ===== */
 .profile-in-table {
-  width: 100px;       /* smaller width */
-  height: auto;       /* keeps aspect ratio */
+  width: 85px;          /* perfect compact width */
+  height: 110px;        /* keeps natural portrait height */
   border-radius: 10px;
   object-fit: cover;
   display: block;
-  margin: 8px auto;   /* centers the image */
+  margin: 8px auto;
   box-shadow: 0 0 6px rgba(255,255,255,0.4);
 }
 

@@ -5,73 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biodata | Mirza Zafri</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
 
-    body {
-      font-family: Arial, sans-serif;
-      background-image: url('website-html-code-browser-view-printed-white-paper-closeup-view.jpg');
-      background-size: cover;
-      background-attachment: fixed;
-      color: aliceblue;
-    }
-
-    .container { display: flex; flex-direction: column; min-height: 100vh; }
-
-    .logo { text-align: center; margin-top: 20px; }
-    .logo img { width: 280px; }
-
-    .navigation {
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      margin: 20px 0;
-    }
-
-    .navigation a {
-      text-decoration: none;
-      color: aliceblue;
-      font-size: 18px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    .navigation a:hover { color: gold; }
-
-    .content {
-      background-color: rgba(0, 0, 139, 0.85);
-      width: 85%;
-      margin: 20px auto;
-      padding: 25px;
-      border-radius: 15px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.4);
-    }
-
-    h2 { text-align: center; color: gold; margin-bottom: 15px; }
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      color: aliceblue;
-    }
-
-    th, td { border: 1px solid white; padding: 10px; }
-    th { background-color: rgba(255,255,255,0.2); }
-    img { width: 100px; height: 120px; border-radius: 10px; }
-    ul { margin-left: 25px; line-height: 1.7; }
-
-    .footer {
-      text-align: center;
-      background-color: darkblue;
-      padding: 15px;
-      margin-top: auto;
-    }
-  </style>
 </head>
 <body>
   <div class="container">
-    <div class="logo">
-      <img src="4e732ced3463d06de0ca9a15b6153677.png" alt="Logo">
-    </div>
+    <div class="logo"><img src="4e732ced3463d06de0ca9a15b6153677.png" alt="Logo"></div>
 
     <div class="navigation">
       <a href="index.html">Home</a>
@@ -85,7 +23,9 @@
       <table>
         <tr>
           <td><b>Name</b></td><td colspan="2">Mirza Zafri</td>
-          <td rowspan="4" style="text-align:center;"><img src="profile.jpg" alt="My Photo"></td>
+          <td rowspan="4" style="text-align:center;">
+            <img src="profile.jpg" alt="My Photo" class="profile-pic">
+            </td>
         </tr>
         <tr><td><b>Date of Birth</b></td><td colspan="2">7 February 2003</td></tr>
         <tr><td><b>Religion</b></td><td colspan="2">Islam</td></tr>

@@ -8,12 +8,11 @@
 </head>
 <body>
   <div class="container">
-    <!-- 🔹 Logo (same size & spacing as homepage) -->
+    <!-- 🔹 Logo + Nav (same as homepage) -->
     <div class="logo">
       <img src="4e732ced3463d06de0ca9a15b6153677.png" alt="Logo">
     </div>
 
-    <!-- 🔹 Navigation Bar -->
     <div class="navigation">
       <a href="index.html">Home</a>
       <a href="biodata.html">Biodata</a>
@@ -21,40 +20,78 @@
       <a href="campus.html">Campus Life</a>
     </div>
 
-    <!-- 🔹 Main Content -->
+    <!-- 🔹 Content -->
     <div class="content">
       <h2>Personal Information</h2>
-      <div class="biodata-layout">
-        <div class="biodata-table">
-          <table>
-            <tr><td><b>Name</b></td><td>Mirza Zafri</td></tr>
-            <tr><td><b>Date of Birth</b></td><td>7 February 2003</td></tr>
-            <tr><td><b>Religion</b></td><td>Islam</td></tr>
-            <tr><td><b>Race</b></td><td>Malay</td></tr>
-            <tr><td><b>Address</b></td><td>No. 21 Jalan Setia 1/8, Taman Setia Indah, Johor Bahru, Johor</td></tr>
-            <tr><td><b>Contact</b></td><td>📱 +60 11-60566924</td></tr>
-            <tr><td><b>LinkedIn</b></td>
-              <td><a href="https://www.linkedin.com/in/mirza-zafri-a46430171/" target="_blank">Visit My LinkedIn</a></td>
-            </tr>
-            <tr><td><b>Course</b></td><td>Bachelor of Software Engineering, UTHM</td></tr>
-            <tr><td><b>Programming Skills</b></td>
-              <td>
-                <ul>
-                  <li>Java</li>
-                  <li>Python</li>
-                  <li>PHP & MySQL</li>
-                  <li>Flutter</li>
-                </ul>
-              </td>
-            </tr>
-          </table>
-        </div>
-
-        <!-- 🔹 Profile Picture (fixed aspect ratio) -->
-        <div class="biodata-photo">
-          <img src="profile.jpg" alt="My Photo" class="profile-pic">
-        </div>
-      </div>
+      <table class="biodata-table">
+        <tr>
+          <td><b>Name</b></td>
+          <td colspan="2">Mirza Zafri</td>
+          <td rowspan="5" class="photo-cell">
+            <img src="profile.jpg" alt="My Photo" class="profile-in-table">
+          </td>
+        </tr>
+        <tr>
+          <td><b>Date of Birth</b></td>
+          <td colspan="2">7 February 2003</td>
+        </tr>
+        <tr>
+          <td><b>Religion</b></td>
+          <td colspan="2">Islam</td>
+        </tr>
+        <tr>
+          <td><b>Race</b></td>
+          <td colspan="2">Malay</td>
+        </tr>
+        <tr>
+          <td><b>Address</b></td>
+          <td colspan="2">No. 21 Jalan Setia 1/8, Taman Setia Indah, Johor Bahru, Johor</td>
+        </tr>
+        <tr>
+          <td><b>Contact</b></td>
+          <td colspan="3">📱 +60 11-60566924</td>
+        </tr>
+        <tr>
+          <td><b>LinkedIn</b></td>
+          <td colspan="3"><a href="https://www.linkedin.com/in/mirza-zafri-a46430171/" target="_blank">Visit My LinkedIn</a></td>
+        </tr>
+        <tr>
+          <td><b>Course</b></td>
+          <td colspan="3">Bachelor of Software Engineering, UTHM</td>
+        </tr>
+        <tr>
+          <td><b>Programming Skills</b></td>
+          <td colspan="3">
+            <ul>
+              <li>Java</li>
+              <li>Python</li>
+              <li>PHP & MySQL</li>
+              <li>Flutter</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><b>Hobbies</b></td>
+          <td colspan="3">
+            <ul>
+              <li>Coding</li>
+              <li>Playing Guitar</li>
+              <li>Photography</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><b>2025 Wishlist</b></td>
+          <td colspan="3">
+            <ul>
+              <li>Graduate with distinction</li>
+              <li>Publish my Final Year Project</li>
+              <li>Build a tech startup</li>
+              <li>Travel to Japan</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
     </div>
 
     <div class="footer">&copy; Mirza Zafri 2025</div>

@@ -292,12 +292,15 @@ img {
 }
 
 .content img {
-  width: 65%;
+  width: auto;
+  max-width: 80%;
   height: auto;
+  max-height: 65vh;
   display: block;
   margin: 20px auto;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  object-fit: contain;
 }
 
 .dins {

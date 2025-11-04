@@ -250,3 +250,25 @@ img {
   object-fit: cover;
   box-shadow: 0 0 10px rgba(255,255,255,0.4);
 }
+
+.linkedin {
+    color:aqua;
+}
+
+/* ===== Resize Profile Picture (Inside Table) ===== */
+.profile-in-table {
+  width: 100px;       /* smaller width */
+  height: auto;       /* keeps aspect ratio */
+  border-radius: 10px;
+  object-fit: cover;
+  display: block;
+  margin: 8px auto;   /* centers the image */
+  box-shadow: 0 0 6px rgba(255,255,255,0.4);
+}
+
+.photo-cell {
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgba(255, 255, 255, 0.05);
+  width: 140px; /* lock column width */
+}

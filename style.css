@@ -223,3 +223,30 @@ img {
   object-fit: cover;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
+
+/* ===== Biodata Table Image Fix ===== */
+.biodata-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.biodata-table th, 
+.biodata-table td {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  vertical-align: top;
+}
+
+.photo-cell {
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.profile-in-table {
+  width: 130px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(255,255,255,0.4);
+}

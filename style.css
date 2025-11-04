@@ -273,20 +273,36 @@ img {
   width: 140px; /* lock column width */
 }
 
-/* ===== LinkedIn Link Style ===== */
+
 .linkedin a {
-  color: aquamarine;           /* main color */
+  color: aquamarine;
   font-weight: 600;
   text-decoration: none;
   transition: 0.3s;
 }
 
 .linkedin a:hover {
-  color: #7fffd4;              /* lighter aquamarine on hover */
+  color: #7fffd4;
   text-shadow: 0 0 8px #7fffd4;
   text-decoration: underline;
 }
 
 .dins {
     text-align: center;
+}
+
+.content img {
+  width: 65%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.dins {
+  text-align: center;
+  color: aquamarine;
+  font-style: italic;
+  margin-top: -10px;
 }

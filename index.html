@@ -1,134 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mirza Zafri | Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
-        .container {
-            display: flex;
-            flex-direction: column;
-            background-color: gray;
-            height: 100vh;
-            width: 100%;
-        }
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('website-html-code-browser-view-printed-white-paper-closeup-view.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      color: aliceblue;
+    }
 
-        .logo {
-            display: flex;
-            flex-direction: row;
-            background-color: aqua;
-            min-height: 100px;
-            width: 100%;
-            justify-content: center;
-            align-items: center;
-        }
+    .container { display: flex; flex-direction: column; min-height: 100vh; }
 
-        .navigation {
-            display: flex;
-            flex-direction: row;
-            background-color: aqua;
-            min-height: 50px;
-            margin-top: 10px;
-            justify-content: space-between;
-            /* align-content: center; */
-            align-items: center;
-            
-        }
+    .logo { text-align: center; margin-top: 20px; }
+    .logo img { width: 280px; }
 
-        .navigation a {
-            text-decoration: none;
-        }
+    .navigation {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 20px 0;
+    }
 
-        .header {
-            display: flex;
-            flex-direction: row;
-            min-height: 100px;
-            width: 100%;
-            background-color: aqua;
-            margin-top: 10px;
-        }
+    .navigation a {
+      text-decoration: none;
+      color: aliceblue;
+      font-size: 18px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
 
-        .content {
-            display: flex;
-            flex-direction: row;
-            min-height: 300px;
-            background-color: red;
-            margin-top: 10px;
-            justify-content: space-between;
-          
-        }
+    .navigation a:hover {
+      color: gold;
+      text-shadow: 0 0 5px white;
+    }
 
-        .side_bar {
-            display: flex;
-            flex-direction: column;
-            background-color: aqua;
-            flex-basis: 20%;
-        }
+    .content {
+      background-color: rgba(0, 0, 139, 0.8);
+      width: 80%;
+      margin: 20px auto;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+      text-align: center;
+    }
 
+    h1 { font-size: 30px; margin-bottom: 10px; color: gold; }
+    p { line-height: 1.7; font-size: 18px; }
 
-        .body_area {
-            display: flex;
-            flex-direction: column;
-            background-color: aqua;
-            flex-basis: 75%;
-        }
-
-        .footer {
-            display: flex;
-            flex-direction: row;
-            background-color: aqua;
-            align-items: center;
-            justify-content: center;
-            margin-top: 10px;
-            min-height: 50px;
-        }
-
-
-    </style>
+    .footer {
+      text-align: center;
+      background-color: darkblue;
+      padding: 15px;
+      margin-top: auto;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-
-        <div class="logo">
-            Logo
-        </div>
-
-        <div class="navigation">
-            <a href="">Home</a>
-            <a href="">Courses</a>
-            <a href="">Contact Us</a>
-        </div>
-
-        <div class="header">
-            <p>Header</p>
-        </div>
-
-        <div class="content">
-
-            <div class="side_bar">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, quia.
-            </div>
-
-            <div class="body_area">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam quisquam tempore id autem blanditiis.
-            </div>
-
-        </div>
-
-
-        <div class="footer">
-            &copy Ariffin 2025
-        </div>
-   
-        
+  <div class="container">
+    <div class="logo">
+      <img src="4e732ced3463d06de0ca9a15b6153677.png" alt="Logo">
     </div>
 
-    
+    <div class="navigation">
+      <a href="index.html">Home</a>
+      <a href="biodata.html">Biodata</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="campus.html">Campus Life</a>
+    </div>
+
+    <div class="content">
+      <h1>Welcome to My Personal Website</h1>
+      <p>
+        Hey! I’m <b>Mirza Zafri</b> — a Software Engineering student at UTHM who’s passionate about coding, design, and innovation.
+        Here, you can learn more about me, my hobbies, and my campus adventures.  
+        Use the navigation above to explore each page!
+      </p>
+    </div>
+
+    <div class="footer">&copy; Mirza Zafri 2025</div>
+  </div>
 </body>
 </html>
